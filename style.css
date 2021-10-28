@@ -1,0 +1,132 @@
+h1
+{
+ color:#EE3000;
+ font-family: 'Bungee Shade', cursive;
+ } 
+h2, h5
+{
+ font-family: 'Bungee', cursive;
+ } 
+
+p
+{
+ font-family: 'Roboto Slab', serif;
+ } 
+
+
+@media screen and (min width:500px) {
+   font-size:150%;
+} 
+
+
+.carouselslide
+{
+   width:100%;
+}
+
+
+
+.container
+{
+  margin-top: 8%;
+ } 
+
+.inner
+{
+overflow:hidden;
+ } 
+
+.inner img
+{
+-webkit-transition: 1.5s ease;
+     -moz-transition: 1.5s ease;
+     -o-transition: 1.5s ease;
+     -ms-transition: 1.5s ease;
+     transition: 1.5s ease;  
+ } 
+
+.inner:hover img
+{
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+  } 
+
+.card
+{  
+margin-top: 20px;
+margin-bottom 20px;
+}
+  .hr
+  {
+  color: #373E49;
+  background-color:#FFF1DA;
+  width: 100%;
+  position: relative;
+  margin: 15px;
+  height: 10px;
+ } 
+
+
+ } 
+
+
+.badge bg-success{
+ margin:20px;
+}
+
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+.accordion-button:onclick
+{
+background-color:#E1D3BB;
+}
+
+.accordion-button:hover
+{
+background-color:#FFF1DA;
+}
+
+#waffles
+{
+width:45%;  
+border-radius: 15px;  
+}
+
+#shoes
+{
+width:50%;  
+border-radius: 15px; 
+}
+
+.fa-envelope-square, .fa-linkedin, .fa-instagram-square, .fa-codepen{
+color:#373E49;
+}
+
+.fa-envelope-square:hover{
+color:#28a745;
+}
+.fa-linkedin:hover{
+color:#28a745;
+}
+.fa-instagram-square:hover{
+color:#28a745;
+}
+.fa-codepen:hover{
+color:#28a745;
+}
+
+#things2know{
+  background-image: urlbackground-image: url("https://i.postimg.cc/KzZsM9tk/ignacio-ceballos-Vo-D0rb4tw-TE-unsplash.jpg");
+      width: 100%;
+    height: auto;
+   background-repeat: no-repeat;
+}
